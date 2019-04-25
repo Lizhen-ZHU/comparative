@@ -42,9 +42,10 @@ h2 {
 }
 
 p {
-  font-size: .85rem;
-  line-height: 1.105rem;
+  font-size: 1rem;
   font-weight: 300;
+  line-height: 28px;
+margin-bottom: 10px;
 }
 
 p:last-child {
@@ -71,7 +72,6 @@ section {
 }
 
 article {
-  box-shadow: inset 0px 0px 117px -12px #d6d6d6;
   margin: 0 4vw;
   width: calc(92vw - 2rem);
   padding: 2em;
@@ -201,5 +201,5 @@ blockquote:after {
 }
 .handle:hover::after {
   color: #ddd;
-  content: "TOMA";
+  content: "拖拽";
 }
