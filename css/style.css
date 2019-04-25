@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Lora';
   font-style: italic;
   font-weight: 400;
@@ -11,7 +11,7 @@
   font-weight: 400;
   src: local("Lobster Two"), local("LobsterTwo"), url(http://www.thekinsky.com/wp-content/uploads/2014/09/6.TomFordforYSL2004.jpg) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
+} */
 *,
 *:before,
 *:after {
@@ -33,12 +33,14 @@ h1 {
   font-size: 3rem;
   line-height: 7.8rem;
   font-weight: 300;
+      font-family: 'PT Sans Narrow', sans-serif;
 }
 
 h2 {
   font-size: 1.5rem;
   line-height: 3.9rem;
   font-weight: 300;
+      font-family: 'PT Sans Narrow', sans-serif;
 }
 
 p {
@@ -46,6 +48,7 @@ p {
   font-weight: 300;
   line-height: 28px;
 margin-bottom: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 p:last-child {
@@ -80,7 +83,7 @@ article {
 }
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
+      font-family: 'PT Sans Narrow', sans-serif;
   text-align: center;
 }
 
@@ -127,13 +130,13 @@ p:before {
 }
 
 h2.poem {
-  font-family: 'Lobster Two';
+      font-family: 'PT Sans Narrow', sans-serif;
   text-align: center;
   margin: .5rem auto .52rem;
 }
 
 blockquote {
-  font-family: Georgia, serif;
+    font-family: 'PT Sans Narrow', sans-serif;
   margin: 1.3rem 5rem;
 }
 blockquote:before, blockquote:after {
@@ -182,7 +185,7 @@ blockquote:after {
 }
 .handle::after {
   content: "DRAG";
-  font-family: 'Abril Fatface';
+  font-family: 'PT Sans Narrow', sans-serif;
   display: block;
   width: 4em;
   height: 4em;
