@@ -66,7 +66,7 @@ blockquote {
 }
 
 body {
-  background: #f1f1f1;
+
   color: #666;
 }
 
@@ -101,7 +101,7 @@ p:before {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
+  width: 444px;
   height: auto;
   float: right;
 }
