@@ -33,14 +33,14 @@ h1 {
   font-size: 3rem;
   line-height: 7.8rem;
   font-weight: 300;
-      font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Noto Serif TC', serif;
 }
 
 h2 {
   font-size: 1.5rem;
   line-height: 3.9rem;
   font-weight: 300;
-      font-family: 'PT Sans Narrow', sans-serif;
+      font-family: 'Noto Serif TC', serif;
 }
 
 p {
@@ -48,7 +48,7 @@ p {
   font-weight: 300;
   line-height: 28px;
 margin-bottom: 10px;
-    font-family: 'PT Sans Narrow', sans-serif;
+      font-family: 'Noto Serif TC', serif;
 }
 
 p:last-child {
@@ -83,7 +83,7 @@ article {
 }
 
 h1 {
-      font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Noto Serif TC', serif;
   text-align: center;
 }
 
@@ -130,13 +130,13 @@ p:before {
 }
 
 h2.poem {
-      font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Noto Serif TC', serif;
   text-align: center;
   margin: .5rem auto .52rem;
 }
 
 blockquote {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Noto Serif TC', serif;
   margin: 1.3rem 5rem;
 }
 blockquote:before, blockquote:after {
@@ -185,7 +185,7 @@ blockquote:after {
 }
 .handle::after {
   content: "DRAG";
-  font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Noto Serif TC', serif;
   display: block;
   width: 4em;
   height: 4em;
